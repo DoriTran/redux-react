@@ -1,0 +1,20 @@
+.color-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 100px;
+  border-top-right-radius: 50px;
+  border: 10px solid black;
+  border-bottom: none;
+  border-left: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.color-content:hover {
+  cursor: pointer;
+}
